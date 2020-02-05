@@ -92,6 +92,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <p className="first"> Sprawdź pogodę na dziś </p>
         <Form
           value={this.state.value}
           error={this.state.err}
