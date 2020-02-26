@@ -24,9 +24,9 @@ const Result = props => {
         <h4>Dane dla {date} </h4>
         <h4> Aktualna temperatura: {temperature} &#176;C </h4>
         <h4> Wschód słońca o: {sunriseTime} </h4>
-        <h4> Zachód słońca o:{sunsetTime} </h4>
-        <h4> Aktualne ciśnienie:{pressure} hPa </h4>
-        <h4> Prędkość wiatru :{wind} m/s </h4>
+        <h4> Zachód słońca o: {sunsetTime} </h4>
+        <h4> Aktualne ciśnienie: {pressure} hPa </h4>
+        <h4> Prędkość wiatru: {wind} m/s </h4>
       </section>
     );
   }
